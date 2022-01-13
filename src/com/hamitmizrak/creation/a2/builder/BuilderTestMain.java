@@ -4,7 +4,7 @@ public class BuilderTestMain {
 
 
     public static void main(String[] args) {
-        BuilderClass builder=new BuilderClass.Builder().adi("Hamit").soyadi("Mızrak").build();
-        System.out.println(builder);
+        BuilderClass builderClass = new BuilderClass.Builder().adi("Hamit").soyadi("Mızrak").build();
+        System.out.println(builderClass);
     }
 }

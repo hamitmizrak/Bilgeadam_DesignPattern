@@ -31,19 +31,13 @@ public class BuilderClass {
         this.soyadi = soyadi;
     }
 
-    @Override
-    public String toString() {
-        return "BuilderClass [adi=" + adi + ", soyadi=" + soyadi + "]";
-    }
-
-
     // inner class
     public static class Builder {
         private String adi;
         private String soyadi;
 
         public Builder() {
-
+            // TODO Auto-generated constructor stub
         }
 
         public Builder adi(String adi) {
@@ -63,6 +57,8 @@ public class BuilderClass {
 
     }
 
-
-
+    @Override
+    public String toString() {
+        return "BuilderClass [adi=" + adi + ", soyadi=" + soyadi + "]";
+    }
 }
